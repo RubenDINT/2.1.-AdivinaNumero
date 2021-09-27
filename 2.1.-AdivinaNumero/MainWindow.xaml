@@ -9,8 +9,7 @@
     <Grid RenderTransformOrigin="0.348,0.317" Margin="0,0,2,-6">
         <TextBox x:Name="numeroIntroducido" HorizontalAlignment="Left" Height="22" Margin="218,34,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="155"/>
         <TextBlock x:Name="mensajeTextBlock" HorizontalAlignment="Left" Height="22" Margin="64,34,0,0" TextWrapping="Wrap" Text="¿Qué número he pensado?" VerticalAlignment="Top" Width="149"/>
-        <Button Content="Comprobar" HorizontalAlignment="Left" Height="26" Margin="64,76,0,0" VerticalAlignment="Top" Width="127" Click="Button_Click_Comprobar"/>
-        <Button Content="Reiniciar" HorizontalAlignment="Left" Height="26" Margin="231,76,0,0" VerticalAlignment="Top" Width="132" Click="Button_Click_Reiniciar"/>
-
+        <Button x:Name="comprobarButton" Content="Comprobar" HorizontalAlignment="Left" Height="26" Margin="64,76,0,0" VerticalAlignment="Top" Width="127" Click="Button_Click_Comprobar" IsDefault="True"/>
+        <Button x:Name="reiniciarButton" Content="Reiniciar" HorizontalAlignment="Left" Height="26" Margin="231,76,0,0" VerticalAlignment="Top" Width="132" Click="Button_Click_Reiniciar"/>
     </Grid>
 </Window>
